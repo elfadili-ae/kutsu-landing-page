@@ -7,9 +7,9 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
     return (
         <div
             className={`border-2 rounded-xl
-        ${bigShoeImg === imgURL.bigShoe ? 'border-amber-800' : 'border-transparent'}
+        ${bigShoeImg === imgURL.bigShoe ? 'border-orange-500' : 'border-transparent'}
         cursor-pointer max-sm:flex-1`}
-            onClick={clickHandle}>
+            onMouseEnter={clickHandle}>
             <div className="flex justify-center items-center bg-card bg-cover
             rounded-xl sm:w-40 sm:h-40 max-sm:p-4">
                 <img

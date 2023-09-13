@@ -15,7 +15,7 @@ const Hero = () => {
             gap-10 justify-center max-container
             min-h-screen
              ">
-            <div className="relative xl:w-2/5 flex flex-col justify-center items-start
+            <div className="relative w-full xl:w-2/5 flex flex-col justify-center items-start
             max-lg:padding-x pt-28">
                 <p className="font-sans text-xl text-amber-800">Our Winter Collection</p>
                 <h1 className="pt-10 font-palanquin text-8xl max-sm:text-[72px]

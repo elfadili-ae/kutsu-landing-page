@@ -8,7 +8,7 @@ const app = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="lg:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
